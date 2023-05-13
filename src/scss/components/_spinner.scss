@@ -1,0 +1,24 @@
+.spinner-container {
+  text-align: center;
+}
+.spinner {
+  width: 5%;
+  margin-left: -270px;
+  margin-top: 50px;
+  @media (max-width: 1120px) {
+    margin-left: -200px;
+  }
+  @media (max-width: 710px) {
+  }
+  @media (max-width: 580px) {
+  }
+  @media (max-width: 380px) {
+  }
+  @media (max-width: 200px) {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin-left: 2px;
+  }
+}
